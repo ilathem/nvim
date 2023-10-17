@@ -14,3 +14,8 @@ Initially created following along with [ThePrimeagen](https://www.youtube.com/wa
 - The `/after` directory is utilized to add to an existing plugin or make a few changes to [it](https://vi.stackexchange.com/questions/12731/when-to-use-the-after-directory)
 
 ### Important Remaps (Keybinds)
+
+- ` pv` open netrw
+- ` pf` "project files" open telescope
+- `Ctrl+p` open telescope with git files
+- ` ps` "project search"
