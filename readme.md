@@ -1,6 +1,6 @@
 # My Personal NVIM Configuration
 
-Initially created following along with [ThePrimeagen](https://www.youtube.com/watch?v=w7i4amO_zaE&t=1152s)
+Initially created following along with [ThePrimeagen](https://www.youtube.com/watch?v=w7i4amO_zaE)
 
 ## Notes
 
