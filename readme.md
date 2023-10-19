@@ -18,4 +18,4 @@ Initially created following along with [ThePrimeagen](https://www.youtube.com/wa
 - ` pv` open netrw
 - ` pf` "project files" open telescope
 - `Ctrl+p` open telescope with git files
-- ` ps` "project search"
+- ` ps` "project search", will search for a string in the current working directory and get resutls live as you type, respects .gitignore
