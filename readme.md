@@ -12,10 +12,25 @@ Initially created following along with [ThePrimeagen](https://www.youtube.com/wa
     - to install plugins, put them inside the startup function, source the file (`:so`), then sync the packages with `:PackerSync`
 - The fuzzy finder is [Telescope](https://github.com/nvim-telescope/telescope.nvim), located in `packer.lua`
 - The `/after` directory is utilized to add to an existing plugin or make a few changes to [it](https://vi.stackexchange.com/questions/12731/when-to-use-the-after-directory)
+- [Harpoon](https://github.com/ThePrimeagen/harpoon) is used to quickly swith between various files that you might be editing concurrently.
+- [Fugitive](https://github.com/tpope/vim-fugitive) is used for git
 
-### Important Remaps (Keybinds)
-
-- ` pv` open netrw
+### Custom Remaps (Keybinds)
+- ` pv` "project view" open netrw
 - ` pf` "project files" open telescope
 - `Ctrl+p` open telescope with git files
 - ` ps` "project search", will search for a string in the current working directory and get resutls live as you type, respects .gitignore
+- ` a` add current file to harpoon
+- `Ctrl+e` toggle harpoon UI
+- `D-j` go to file 1 in harpoon
+- `D-k` go to file 2 in harpoon
+- `D-l` go to file 3 in harpoon
+- `D-;` go to file 4 in harpoon
+- ` u` toggle undo tree
+- ` gs` open fugitive (git integation)
+- ` p` paste over selection, selection moved to void register
+- `  y`, ` Y` yank to system clipboard
+- ` f` format file
+- ` s` replace the word the cursor is on throughout the file
+- ` x` make current file executable
+- `  ` source the current file

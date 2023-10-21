@@ -14,7 +14,7 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
-  use({ 
+  use({
 	  'rebelot/kanagawa.nvim',
 	  config = function()
 		vim.cmd('colorscheme kanagawa-wave')
@@ -27,5 +27,35 @@ return require('packer').startup(function(use)
   use 'nvim-lua/plenary.nvim'
 
   use 'ThePrimeagen/harpoon'
+
+  use 'mbbill/undotree'
+
+  use({
+	  "Pocco81/auto-save.nvim",
+	  config = function()
+		  require("auto-save").setup { }
+	  end,
+  })
+
+  use 'tpope/vim-fugitive'
+
+  use {
+	  'VonHeikemen/lsp-zero.nvim',
+	  branch = 'v3.x',
+	  requires = {
+		  --- Uncomment these if you want to manage LSP servers from neovim
+		  {'williamboman/mason.nvim'},
+		  {'williamboman/mason-lspconfig.nvim'},
+
+		  -- LSP Support
+		  {'neovim/nvim-lspconfig'},
+		  -- Autocompletion
+		  {'hrsh7th/nvim-cmp'},
+		  {'hrsh7th/cmp-nvim-lsp'},
+		  {'L3MON4D3/LuaSnip'},
+	  }
+  }
+
+  use 'eandrju/cellular-automaton.nvim'
 
 end)
