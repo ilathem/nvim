@@ -34,3 +34,4 @@ Initially created following along with [ThePrimeagen](https://www.youtube.com/wa
 - ` s` replace the word the cursor is on throughout the file
 - ` x` make current file executable
 - `  ` source the current file
+- ` b` open current file in the brave browser
