@@ -12,13 +12,8 @@ vim.keymap.set("n", "<leader>ga", "<cmd>:G add .<CR>")
 -- git commit all files with message
 vim.keymap.set("n", "<leader>gc", function()
     vim.ui.input({prompt = "Commit message: "}, function(input)
-        vim.cmd("G commit -m " .. input)
-    end)
-end)
-
-vim.keymap.set("n", "<leader>gt", function()
-    vim.ui.input({prompt = "Commit message: "}, function(input)
-        print("test" .. input)
+        local command = "G commit -m '" .. input .. "'";
+        vim.cmd(command)
     end)
 end)
 
