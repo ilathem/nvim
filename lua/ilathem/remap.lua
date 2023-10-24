@@ -13,6 +13,7 @@ vim.keymap.set("n", "<leader>ga", "<cmd>:G add .<CR>")
 vim.keymap.set("n", "<leader>gc", function()
     vim.ui.input({prompt = "Commit message: "}, function(input)
         local command = "G commit -m '" .. input .. "'";
+        vim.cmd("G add .")
         vim.cmd(command)
     end)
 end)
