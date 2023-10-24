@@ -18,7 +18,9 @@ vim.keymap.set("n", "<leader>gc", function()
 end)
 
 -- git status
-vim.keymap.set("n", "<leader>gs", "<cmd>:G status<CR>")
+vim.keymap.set("n", "<leader>gs", function()
+    vim.cmd("G status")
+end)
 
 -- git push
 vim.keymap.set("n", "<leader>gp", "<cmd>:G push<CR>")
