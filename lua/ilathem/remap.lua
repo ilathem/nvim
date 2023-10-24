@@ -23,7 +23,6 @@ vim.keymap.set("n", "<leader>gs", "<cmd>:G status<CR>")
 -- git push
 vim.keymap.set("n", "<leader>gp", "<cmd>:G push<CR>")
 
-
 -- Primeagen remaps:
 
 -- In normal mode, pressing space+p+v will run :Ex, which opens the NetRW screen
