@@ -4,6 +4,7 @@ vim.g.mapleader = " "
 -- for controlling the nvim windows
 vim.keymap.set("n", "<leader>w", "<C-w>")
 
+-- open current file in brave browser
 vim.keymap.set("n", "<leader>b", "<cmd>:silent !brave-nightly %<CR>")
 
 -- git add all files
