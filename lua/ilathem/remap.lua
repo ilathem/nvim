@@ -15,6 +15,11 @@ vim.keymap.set("n", "<leader>gc", function()
         vim.cmd("G commit -m " .. input)
     end)
 end)
+vim.keymap.set("n", "<leader>gt", function()
+    vim.ui.input({prompt = "Commit message: "}, function(input)
+        print("test" .. input)
+    end)
+end)
 
 -- git status
 vim.keymap.set("n", "<leader>gs", "<cmd>:G status<CR>")
