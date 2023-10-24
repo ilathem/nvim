@@ -6,6 +6,18 @@ vim.keymap.set("n", "<leader>w", "<C-w>")
 
 vim.keymap.set("n", "<leader>b", "<cmd>:silent !brave-nightly %<CR>")
 
+-- git add all files
+vim.keymap.set("n", "<leader>ga", "<cmd>:G add .<CR>")
+
+-- git commit all files with message
+vim.keymap.set("n", "<leader>gc", function()
+    vim.ui.input({prompt = "Commit message: "}, function(input)
+        vim.cmd("G commit -m " .. input)
+    end)
+end)
+
+-- git status
+vim.keymap.set("n", "<leader>gs", "<cmd>:G status<CR>")
 
 -- Primeagen remaps:
 

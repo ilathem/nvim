@@ -58,4 +58,5 @@ return require('packer').startup(function(use)
 
   use 'eandrju/cellular-automaton.nvim'
 
+  use 'windwp/nvim-ts-autotag'
 end)
