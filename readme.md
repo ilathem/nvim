@@ -15,7 +15,7 @@ Initially created following along with [ThePrimeagen](https://www.youtube.com/wa
 - [Harpoon](https://github.com/ThePrimeagen/harpoon) is used to quickly swith between various files that you might be editing concurrently.
 - [Fugitive](https://github.com/tpope/vim-fugitive) is used for git
 
-### Custom Remaps (Keybinds)
+## Custom Remaps (Keybinds)
 - ` pv` "project view" open netrw
 - ` pf` "project files" open telescope
 - `Ctrl+p` open telescope with git files
@@ -35,3 +35,7 @@ Initially created following along with [ThePrimeagen](https://www.youtube.com/wa
 - ` x` make current file executable
 - `  ` source the current file
 - ` b` open current file in the brave browser
+
+## Other 
+- `Ctrl+Shift+u` will open a unicode input window to search and select symbols 
+(like the degree symbol)
