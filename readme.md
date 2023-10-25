@@ -16,6 +16,10 @@ Initially created following along with [ThePrimeagen](https://www.youtube.com/wa
 - [Fugitive](https://github.com/tpope/vim-fugitive) is used for git
 
 ## Custom Remaps (Keybinds)
+
+Custom remaps that I have either found online or made my own to streamline 
+my workflow.
+
 - ` pv` "project view" open netrw
 - ` pf` "project files" open telescope
 - `Ctrl+p` open telescope with git files
@@ -35,7 +39,12 @@ Initially created following along with [ThePrimeagen](https://www.youtube.com/wa
 - ` x` make current file executable
 - `  ` source the current file
 - ` b` open current file in the brave browser
+- ` gg` prompt for git message, commit all changes with that 
+message, then push those changes to remote
 
 ## Other 
+
+A collection of other useful information that has to do with textual input.
+
 - `Ctrl+Shift+u` will open a unicode input window to search and select symbols 
 (like the degree symbol)

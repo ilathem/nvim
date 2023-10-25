@@ -7,9 +7,6 @@ vim.keymap.set("n", "<leader>w", "<C-w>")
 -- open current file in brave browser
 vim.keymap.set("n", "<leader>b", "<cmd>:silent !brave-nightly %<CR>")
 
--- git add all files
-vim.keymap.set("n", "<leader>ga", "<cmd>:G add .<CR>")
-
 -- git commit and push all files with message
 vim.keymap.set("n", "<leader>gg", function()
     vim.ui.input({prompt = "Commit message: "}, function(input)
@@ -20,13 +17,7 @@ vim.keymap.set("n", "<leader>gg", function()
     end)
 end)
 
--- git status
-vim.keymap.set("n", "<leader>gs", function()
-    vim.cmd("G status")
-end)
-
--- git push
-vim.keymap.set("n", "<leader>gp", "<cmd>:G push<CR>")
+-- git status is in fugitive.lua
 
 -- Primeagen remaps:
 
