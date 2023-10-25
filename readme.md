@@ -23,7 +23,8 @@ my workflow.
 - ` pv` "project view" open netrw
 - ` pf` "project files" open telescope
 - `Ctrl+p` open telescope with git files
-- ` ps` "project search", will search for a string in the current working directory and get resutls live as you type, respects .gitignore
+- ` ps` "project search", will search for a string in the current working 
+directory and get resutls live as you type, respects .gitignore
 - ` a` add current file to harpoon
 - `Ctrl+e` toggle harpoon UI
 - `D-j` go to file 1 in harpoon
