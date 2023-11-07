@@ -14,6 +14,9 @@ Initially created following along with [ThePrimeagen](https://www.youtube.com/wa
 - The `/after` directory is utilized to add to an existing plugin or make a few changes to [it](https://vi.stackexchange.com/questions/12731/when-to-use-the-after-directory)
 - [Harpoon](https://github.com/ThePrimeagen/harpoon) is used to quickly swith between various files that you might be editing concurrently.
 - [Fugitive](https://github.com/tpope/vim-fugitive) is used for git
+- [Vim-Gitguttter](https://github.com/airblade/vim-gitgutter) is used for viewing which lines have been changed since the last commit (also for jumping between hunks (changes))
+    - `]c` jump to next hunk
+    - `[c` jump to previous hunk
 
 ## Custom Remaps (Keybinds)
 
