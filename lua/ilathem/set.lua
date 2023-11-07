@@ -1,5 +1,4 @@
 -- sets that will further customize the nvim layout
--- vim.api.nvim_set_hl(0, 'Comment', { italic=true })
 
 -- add in relative line numbers
 vim.opt.nu = true
