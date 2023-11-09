@@ -62,4 +62,7 @@ return require('packer').startup(function(use)
 
   use {"ellisonleao/glow.nvim", config = function() require("glow").setup() end}
 
+  use "airblade/vim-gitgutter"
+
+  use "andymass/vim-matchup"
 end)

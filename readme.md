@@ -17,6 +17,7 @@ Initially created following along with [ThePrimeagen](https://www.youtube.com/wa
 - [Vim-Gitguttter](https://github.com/airblade/vim-gitgutter) is used for viewing which lines have been changed since the last commit (also for jumping between hunks (changes))
     - `]c` jump to next hunk
     - `[c` jump to previous hunk
+- [Vim-Matchup](https://github.com/andymass/vim-matchup) "vim match-up: even better % 👊 navigate and highlight matching words 👊 modern matchit and matchparen. Supports both vim and neovim + tree-sitter."
 
 ## Custom Remaps (Keybinds)
 
