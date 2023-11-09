@@ -65,4 +65,9 @@ return require('packer').startup(function(use)
   use "airblade/vim-gitgutter"
 
   use "andymass/vim-matchup"
+
+  use {
+      'nmac427/guess-indent.nvim',
+      config = function() require('guess-indent').setup {} end,
+  }
 end)
