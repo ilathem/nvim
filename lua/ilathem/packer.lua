@@ -70,4 +70,11 @@ return require('packer').startup(function(use)
       'nmac427/guess-indent.nvim',
       config = function() require('guess-indent').setup {} end,
   }
+
+  use {
+    'numToStr/Comment.nvim',
+    config = function()
+      require('Comment').setup()
+    end
+  }
 end)

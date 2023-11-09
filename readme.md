@@ -18,6 +18,7 @@ Initially created following along with [ThePrimeagen](https://www.youtube.com/wa
     - `]c` jump to next hunk
     - `[c` jump to previous hunk
 - [Vim-Matchup](https://github.com/andymass/vim-matchup) "vim match-up: even better % 👊 navigate and highlight matching words 👊 modern matchit and matchparen. Supports both vim and neovim + tree-sitter."
+- [Comment.nvim](https://github.com/numToStr/Comment.nvim) plugin for adding comments
 
 ## Custom Remaps (Keybinds)
 
@@ -46,6 +47,9 @@ directory and get resutls live as you type, respects .gitignore
 - ` b` open current file in the brave browser
 - ` gg` prompt for git message, commit all changes with that 
 message, then push those changes to remote
+- `gcc` in normal mode: toggle current line using linewise comment (comment.nvim)
+- `gc` in visual mode: toggle selection using linewise comment (comment.nvim)
+- `gb` in visual mode: toggle selection using blockwise comment (comment.nvim)
 
 ## Other 
 
