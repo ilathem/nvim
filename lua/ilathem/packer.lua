@@ -77,4 +77,12 @@ return require('packer').startup(function(use)
       require('Comment').setup()
     end
   }
+
+  use {
+    "lukas-reineke/indent-blankline.nvim",
+    config = function()
+      require("ibl").setup()
+    end
+  }
+
 end)

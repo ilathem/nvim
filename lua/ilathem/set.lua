@@ -1,5 +1,11 @@
 -- sets that will further customize the nvim layout
 
+-- vim.opt === 'set' in vimscript
+-- vim.g === 'let' in vimscript
+
+-- highlight the current line
+vim.opt.cursorline = true;
+
 -- add in relative line numbers
 vim.opt.nu = true
 vim.opt.relativenumber = true
@@ -41,3 +47,4 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "80"
 
 vim.g.mapleader = " "
+
