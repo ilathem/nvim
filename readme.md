@@ -60,3 +60,4 @@ A collection of other useful information that has to do with textual input.
 (like the degree symbol)
 
 - `d` in zsh will show you the recently opened directories, allowing you to easily switch to a recent directory without explicitly navigating to it.
+- `C-d` will redraw the screen, getting rid of visual stuff you might want gone. (EX: you searched something with `/` and don't want to see all the highlights anymore)

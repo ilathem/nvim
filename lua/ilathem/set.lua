@@ -28,9 +28,6 @@ vim.opt.backup = false
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 vim.opt.undofile = true
 
--- when you search, don't keep the terms highlighted
-vim.opt.hlsearch = false
-
 -- highlight what you are searching for as you type (dynamic)
 vim.opt.incsearch = true
 
