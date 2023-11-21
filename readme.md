@@ -58,3 +58,5 @@ A collection of other useful information that has to do with textual input.
 
 - `Ctrl+Shift+u` will open a unicode input window to search and select symbols 
 (like the degree symbol)
+
+- `d` in zsh will show you the recently opened directories, allowing you to easily switch to a recent directory without explicitly navigating to it.
