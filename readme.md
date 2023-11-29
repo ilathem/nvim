@@ -62,3 +62,4 @@ A collection of other useful information that has to do with textual input.
 - `d` in zsh will show you the recently opened directories, allowing you to easily switch to a recent directory without explicitly navigating to it.
 - `C-l` will redraw the screen, getting rid of visual stuff you might want gone. (EX: you searched something with `/` and don't want to see all the highlights anymore)
 - `z` is a zsh plugin that will remember the most recently used directories and will let you navigate to one by only using a few characters in that directory name.
+- `gg=G` to indent entire file (go to beginning, use auto indent command `=` with motion `G` to specify to go to end of file

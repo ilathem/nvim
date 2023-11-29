@@ -53,6 +53,9 @@ vim.keymap.set("x", "<leader>p", [["_dP]])
 vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 
+-- put from system clipboard
+vim.keymap.set({"n", "v"}, "<leader>p", [["+p]])
+
 -- delete to void register
 vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]])
 
