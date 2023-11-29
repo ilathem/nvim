@@ -30,7 +30,7 @@ my workflow.
 - ` pf` "project files" open telescope
 - `Ctrl+p` open telescope with git files
 - ` ps` "project search", will search for a string in the current working 
-directory and get resutls live as you type, respects .gitignore
+directory and get results live as you type, respects .gitignore
 - ` a` add current file to harpoon
 - `Ctrl+e` toggle harpoon UI
 - `D-j` go to file 1 in harpoon
@@ -38,7 +38,7 @@ directory and get resutls live as you type, respects .gitignore
 - `D-l` go to file 3 in harpoon
 - `D-;` go to file 4 in harpoon
 - ` u` toggle undo tree
-- ` gs` open fugitive (git integation)
+- ` gs` open fugitive (git integration)
 - ` p` paste over selection, selection moved to void register
 - `  y`, ` Y` yank to system clipboard
 - ` f` format file
@@ -61,3 +61,4 @@ A collection of other useful information that has to do with textual input.
 
 - `d` in zsh will show you the recently opened directories, allowing you to easily switch to a recent directory without explicitly navigating to it.
 - `C-l` will redraw the screen, getting rid of visual stuff you might want gone. (EX: you searched something with `/` and don't want to see all the highlights anymore)
+- `z` is a zsh plugin that will remember the most recently used directories and will let you navigate to one by only using a few characters in that directory name.
