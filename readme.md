@@ -20,6 +20,7 @@ Initially created following along with [ThePrimeagen](https://www.youtube.com/wa
 - [Vim-Matchup](https://github.com/andymass/vim-matchup) "vim match-up: even better % 👊 navigate and highlight matching words 👊 modern matchit and matchparen. Supports both vim and neovim + tree-sitter."
 - [Comment.nvim](https://github.com/numToStr/Comment.nvim) plugin for adding comments
 - `vim.opt` is for things you'd `set` in vimscript, whereas `vim.g` is for things you'd `let` ([credit](https://www.reddit.com/r/neovim/comments/p6dhrk/set_space_to_leader_key_with_lua/))
+- [Emmet for vim](https://github.com/mattn/emmet-vim) is for html/css code completion
 
 ## Custom Remaps (Keybinds)
 

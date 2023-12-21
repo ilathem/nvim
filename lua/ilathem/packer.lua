@@ -89,4 +89,7 @@ return require('packer').startup(function(use)
 
   use 'myusuf3/numbers.vim'
 
+
+  use 'mattn/emmet-vim'
+
 end)
