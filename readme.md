@@ -75,4 +75,5 @@ A collection of other useful information that has to do with textual input.
 - https://nosarthur.github.io/productivity/2021/08/27/ex-vim.html contains a lot
     of info about colon (:) commands in vim
 - `:r` reads the file into buffer
-- `:r!` command [Enter] copies the output of a shell command into the current buffer
+- `:r! command [Enter]` copies the output of a shell command into the current buffer
+- `:! command [Enter]` will execute 'command' in a bash shell 
