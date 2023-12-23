@@ -72,3 +72,7 @@ A collection of other useful information that has to do with textual input.
 - `C-l` will redraw the screen, getting rid of visual stuff you might want gone. (EX: you searched something with `/` and don't want to see all the highlights anymore)
 - `z` is a zsh plugin that will remember the most recently used directories and will let you navigate to one by only using a few characters in that directory name.
 - `gg=G` to indent entire file (go to beginning, use auto indent command `=` with motion `G` to specify to go to end of file
+- https://nosarthur.github.io/productivity/2021/08/27/ex-vim.html contains a lot
+    of info about colon (:) commands in vim
+- `:r` reads the file into buffer
+- `:r!` command [Enter] copies the output of a shell command into the current buffer
