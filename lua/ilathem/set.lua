@@ -41,7 +41,9 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
+-- 80 column limit
 vim.opt.colorcolumn = "80"
 
+-- space is the leader key
 vim.g.mapleader = " "
 

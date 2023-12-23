@@ -1,4 +1,12 @@
+<!-- cspell: disable -->
 # My Personal NVIM Configuration
+
+<!--toc:start-->
+- [My Personal NVIM Configuration](#my-personal-nvim-configuration)
+  - [Notes](#notes)
+  - [Custom Remaps (Keybinds)](#custom-remaps-keybinds)
+  - [Other](#other)
+<!--toc:end-->
 
 Initially created following along with [ThePrimeagen](https://www.youtube.com/watch?v=w7i4amO_zaE)
 
@@ -12,12 +20,12 @@ Initially created following along with [ThePrimeagen](https://www.youtube.com/wa
     - to install plugins, put them inside the startup function, source the file (`:so`), then sync the packages with `:PackerSync`
 - The fuzzy finder is [Telescope](https://github.com/nvim-telescope/telescope.nvim), located in `packer.lua`
 - The `/after` directory is utilized to add to an existing plugin or make a few changes to [it](https://vi.stackexchange.com/questions/12731/when-to-use-the-after-directory)
-- [Harpoon](https://github.com/ThePrimeagen/harpoon) is used to quickly swith between various files that you might be editing concurrently.
+- [Harpoon](https://github.com/ThePrimeagen/harpoon) is used to quickly switch between various files that you might be editing concurrently.
 - [Fugitive](https://github.com/tpope/vim-fugitive) is used for git
 - [Vim-Gitguttter](https://github.com/airblade/vim-gitgutter) is used for viewing which lines have been changed since the last commit (also for jumping between hunks (changes))
     - `]c` jump to next hunk
     - `[c` jump to previous hunk
-- [Vim-Matchup](https://github.com/andymass/vim-matchup) "vim match-up: even better % 👊 navigate and highlight matching words 👊 modern matchit and matchparen. Supports both vim and neovim + tree-sitter."
+- [Vim-Matchup](https://github.com/andymass/vim-matchup) "vim match-up: even better % 👊 navigate and highlight matching words modern matchit and matchparen. Supports both vim and neovim + tree-sitter."
 - [Comment.nvim](https://github.com/numToStr/Comment.nvim) plugin for adding comments
 - `vim.opt` is for things you'd `set` in vimscript, whereas `vim.g` is for things you'd `let` ([credit](https://www.reddit.com/r/neovim/comments/p6dhrk/set_space_to_leader_key_with_lua/))
 - [Emmet for vim](https://github.com/mattn/emmet-vim) is for html/css code completion
