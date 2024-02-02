@@ -60,6 +60,7 @@ message, then push those changes to remote
 - `gcc` in normal mode: toggle current line using linewise comment (comment.nvim)
 - `gc` in visual mode: toggle selection using linewise comment (comment.nvim)
 - `gb` in visual mode: toggle selection using blockwise comment (comment.nvim)
+- `C-z' is the emmet remap so as to not interfere with autocomplete (`C-y`)
 
 ## Other 
 
