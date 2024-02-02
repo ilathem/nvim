@@ -3,6 +3,10 @@
 -- vim.opt === 'set' in vimscript
 -- vim.g === 'let' in vimscript
 
+-- change the user leader key from <C-Y> to <C-Z> because 
+-- <C-Y> is for accepting lsp completions
+vim.g.user_emmet_leader_key='<C-Z>'
+
 -- highlight the current line
 vim.opt.cursorline = true;
 
