@@ -80,6 +80,10 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 -- make the current file executable within the file (instead of within bash)
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
+-- create a symbolic link for the current .sh file to ~/bin
+-- so that we can call it from anywhere because ~/bin is in the path
+vim.keymap.set("n", "<leader>z", "<cmd>!ln -s %:t ~/bin/%:t:r<CR>" )
+
 vim.keymap.set("n", "<leader>vpp", "<cmd>e ~/.dotfiles/nvim/.config/nvim/lua/theprimeagen/packer.lua<CR>");
 vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>");
 
