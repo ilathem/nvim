@@ -8,10 +8,10 @@ vim.keymap.set("n", "<C-e>", ui.toggle_quick_menu)
 
 
 -- basic functions for navigating to various harpoon marks
-vim.keymap.set("n", "<D-j>", function() ui.nav_file(1) end)
-vim.keymap.set("n", "<D-k>", function() ui.nav_file(2) end)
-vim.keymap.set("n", "<D-l>", function() ui.nav_file(3) end)
-vim.keymap.set("n", "<D-;>", function() ui.nav_file(4) end)
+vim.keymap.set("n", "<leader>j", function() ui.nav_file(1) end)
+vim.keymap.set("n", "<leader>k", function() ui.nav_file(2) end)
+vim.keymap.set("n", "<leader>l", function() ui.nav_file(3) end)
+vim.keymap.set("n", "<leader>;", function() ui.nav_file(4) end)
 
 
 
