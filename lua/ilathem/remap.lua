@@ -9,7 +9,7 @@ vim.g.mapleader = " "
 -- for controlling the nvim windows
 vim.keymap.set("n", "<leader>w", "<C-w>")
 
--- open current file in brave browser
+-- open current file in brave browser (arch only)
 vim.keymap.set("n", "<leader>b", "<cmd>:silent !brave-nightly %<CR>")
 
 -- git commit and push all files with message

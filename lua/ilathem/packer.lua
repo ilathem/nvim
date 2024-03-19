@@ -7,13 +7,14 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
-  -- install the fuzzy finder from https://github.com/nvim-telescope/telescope.nvim
+  -- for file navigation
   use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.4',
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
+  -- color scheme
   use({
 	  'rebelot/kanagawa.nvim',
 	  config = function()
@@ -22,14 +23,19 @@ return require('packer').startup(function(use)
   })
 
 
+  -- better syntax highlighting
   use({ 'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'} })
 
+  -- telescope dependency
   use 'nvim-lua/plenary.nvim'
 
+  -- fast file switching
   use 'ThePrimeagen/harpoon'
 
+  -- <leader>u 
   use 'mbbill/undotree'
 
+  -- auto save
   use({
 	  "Pocco81/auto-save.nvim",
 	  config = function()
@@ -37,8 +43,10 @@ return require('packer').startup(function(use)
 	  end,
   })
 
+  -- git 
   use 'tpope/vim-fugitive'
 
+  -- lsp support
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v3.x',
@@ -56,21 +64,27 @@ return require('packer').startup(function(use)
 	  }
   }
 
+  -- <leader>mr for fun animation
   use 'eandrju/cellular-automaton.nvim'
 
   use 'windwp/nvim-ts-autotag'
 
+  -- markdown preview
   use {"ellisonleao/glow.nvim", config = function() require("glow").setup() end}
 
+  -- show git stuff in the gutter
   use "airblade/vim-gitgutter"
 
+  -- better % (works on words in addition to just characters)
   use "andymass/vim-matchup"
 
+  -- autmatically detect indent level based on file
   use {
       'nmac427/guess-indent.nvim',
       config = function() require('guess-indent').setup {} end,
   }
 
+  -- generate comments
   use {
     'numToStr/Comment.nvim',
     config = function()
@@ -78,6 +92,7 @@ return require('packer').startup(function(use)
     end
   }
 
+  -- indentation guides
   use {
     "lukas-reineke/indent-blankline.nvim",
     config = function()
@@ -85,11 +100,15 @@ return require('packer').startup(function(use)
     end
   }
 
+  -- language server
   use "jose-elias-alvarez/null-ls.nvim"
 
+  -- autmatically toggle line numbers
   use 'myusuf3/numbers.vim'
 
-
+  -- html code generation
   use 'mattn/emmet-vim'
 
+  -- prettier netrw
+  use 'prichrd/netrw.nvim'
 end)
