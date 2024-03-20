@@ -113,6 +113,6 @@ return require('packer').startup(function(use)
   -- use 'prichrd/netrw.nvim'
 
   -- dependency for netrw.nvim
-  -- use 'nvim-tree/nvim-web-devicons'
+  use 'nvim-tree/nvim-web-devicons'
 
 end)
