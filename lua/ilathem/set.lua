@@ -11,8 +11,8 @@ vim.g.user_emmet_leader_key='<C-Z>'
 vim.opt.cursorline = true;
 
 -- add in relative line numbers
-vim.opt.nu = true
-vim.opt.relativenumber = true
+-- vim.opt.nu = true
+-- vim.opt.relativenumber = true
 
 -- 4 space indents
 vim.opt.tabstop = 4

@@ -110,5 +110,9 @@ return require('packer').startup(function(use)
   use 'mattn/emmet-vim'
 
   -- prettier netrw
-  use 'prichrd/netrw.nvim'
+  -- use 'prichrd/netrw.nvim'
+
+  -- dependency for netrw.nvim
+  -- use 'nvim-tree/nvim-web-devicons'
+
 end)
