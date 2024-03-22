@@ -24,6 +24,8 @@ end)
 
 -- git status is in fugitive.lua
 
+-- test change for git
+
 -- Primeagen remaps:
 
 -- In normal mode, pressing space+p+v will run :Ex, which opens the NetRW screen
