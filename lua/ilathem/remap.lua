@@ -19,7 +19,7 @@ vim.keymap.set("n", "<leader>gg", function()
         vim.cmd("silent !git add .")
         vim.cmd(command)
         vim.cmd("silent !git push --quiet")
-        vim.cmd("echo 'Success! Pushed with msg: ' .. input");
+        vim.cmd("echo 'Success! Pushed with msg: ' .. input ..''");
     end)
 end)
 
