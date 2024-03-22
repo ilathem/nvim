@@ -115,4 +115,6 @@ return require('packer').startup(function(use)
   -- dependency for netrw.nvim
   use 'nvim-tree/nvim-web-devicons'
 
+  -- for jumping around text quicker https://github.com/ggandor/leap.nvim
+  use 'ggandor/leap.nvim'
 end)
