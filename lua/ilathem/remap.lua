@@ -24,7 +24,7 @@ end)
 
 -- git status is in fugitive.lua
 
--- test change for fugitive learning
+-- test change for fugitive learning ...
 
 -- Primeagen remaps:
 
