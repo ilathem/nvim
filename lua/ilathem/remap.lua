@@ -15,10 +15,10 @@ vim.keymap.set("n", "<leader>b", "<cmd>:silent !brave-nightly %<CR>")
 -- git commit and push all files with message
 vim.keymap.set("n", "<leader>gg", function()
     vim.ui.input({prompt = "Commit message: "}, function(input)
-        local command = "silent !git commit -m '" .. input .. "' --quiet";
-        vim.cmd("silent !git add .")
+        local command = "!git commit -m '" .. input .. "' --quiet";
+        vim.cmd("!git add .")
         vim.cmd(command)
-        vim.cmd("silent !git push --quiet")
+        vim.cmd("!git push --quiet")
     end)
 end)
 
