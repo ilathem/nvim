@@ -49,9 +49,14 @@ vim.keymap.set("n", "N", "Nzzzv")
 -- instead of adding it to register
 vim.keymap.set("x", "<leader>p", [["_dP]])
 
+-- put from system clipboard - v from ctrl v 
+vim.keymap.set({"n", "v"}, "<leader>v", [["+p]])
+
 -- next greatest remap ever : asbjornHaland
 -- yank to system clipboard
+-- c from ctrl c
 vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]])
+vim.keymap.set({ "n", "v" }, "<leader>c", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 
 -- delete to void register
