@@ -24,3 +24,33 @@ vim.keymap.set("n", "<leader>fg", builtin.live_grep, {})
 vim.keymap.set("n", "<leader>fb", builtin.buffers, {})
 -- find help
 vim.keymap.set("n", "<leader>fh", builtin.help_tags, {})
+
+-- list commit history for current directory
+vim.keymap.set("n", "<leader>gdc", builtin.git_commits, {})
+
+-- list commit history for current buffer 
+vim.keymap.set("n", "<leader>gbc", builtin.git_bcommits, {})
+
+-- Lists LSP references for word under the cursor, jumps to reference on
+-- `<cr>`
+vim.keymap.set("n", "<leader>lr", builtin.lsp_references, {})
+
+-- Lists LSP incoming calls for word under the cursor, jumps to reference on
+-- `<cr>`
+vim.keymap.set("n", "<leader>lic", builtin.lsp_incoming_calls, {})
+
+-- Lists LSP references for word under the cursor, jumps to reference on
+-- `<cr>`
+vim.keymap.set("n", "<leader>loc", builtin.lsp_outgoing_calls, {})
+
+-- Lists LSP definitions for word under the cursor, jumps to reference on
+-- `<cr>`
+vim.keymap.set("n", "<leader>ld", builtin.lsp_definitions, {})
+
+-- Lists LSP type definitions for word under the cursor, jumps to reference on
+-- `<cr>`
+vim.keymap.set("n", "<leader>ltd", builtin.lsp_type_definitions, {})
+
+-- Lists LSP implementations for word under the cursor, jumps to reference on
+-- `<cr>`
+vim.keymap.set("n", "<leader>li", builtin.lsp_implementations, {})
