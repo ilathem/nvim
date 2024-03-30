@@ -14,10 +14,10 @@ vim.opt.cursorline = true;
 -- vim.opt.nu = true
 -- vim.opt.relativenumber = true
 
--- 4 space indents
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
-vim.opt.shiftwidth = 4
+-- 2 space indents
+vim.opt.tabstop = 2
+vim.opt.softtabstop = 2
+vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 
 -- self explanatory
