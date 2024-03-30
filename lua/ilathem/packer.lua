@@ -139,6 +139,7 @@ return require('packer').startup(function(use)
       end
   })
 
+  -- code formatting
   use({
       "stevearc/conform.nvim",
       config = function()
