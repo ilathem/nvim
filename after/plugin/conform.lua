@@ -9,7 +9,7 @@ require("conform").setup({
   },
 })
 
-vim.api.nvim_create_autocmd("BufWritePre", {
+vim.api.nvim_create_autocmd({"BufWritePre", "BufReadPost"}, {
   pattern = "*",
   callback = function(args)
     require("conform").format({ bufnr = args.buf })
