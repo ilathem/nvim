@@ -43,14 +43,14 @@ vim.keymap.set("n", "<leader>lic", builtin.lsp_incoming_calls, {})
 -- `<cr>`
 vim.keymap.set("n", "<leader>loc", builtin.lsp_outgoing_calls, {})
 
--- Lists LSP definitions for word under the cursor, jumps to reference on
--- `<cr>`
+-- Goto the definition of the word under the cursor if there's only one,
+-- otherwise show all options in Telescope
 vim.keymap.set("n", "<leader>ld", builtin.lsp_definitions, {})
 
--- Lists LSP type definitions for word under the cursor, jumps to reference on
--- `<cr>`
+-- Goto the definition of the word under the cursor if there's only one,
+-- otherwise show all options in Telescope
 vim.keymap.set("n", "<leader>ltd", builtin.lsp_type_definitions, {})
 
--- Lists LSP implementations for word under the cursor, jumps to reference on
--- `<cr>`
+-- Goto the implementation of the word under the cursor if there's only one,
+-- otherwise show all options in Telescope
 vim.keymap.set("n", "<leader>li", builtin.lsp_implementations, {})
