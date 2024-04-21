@@ -67,6 +67,7 @@ return require('packer').startup(function(use)
   -- <leader>mr for fun animation
   use 'eandrju/cellular-automaton.nvim'
 
+  -- Use treesitter to auto close and auto rename html tag
   use 'windwp/nvim-ts-autotag'
 
   -- markdown preview
@@ -110,7 +111,7 @@ return require('packer').startup(function(use)
   use 'mattn/emmet-vim'
 
   -- prettier netrw
-  -- use 'prichrd/netrw.nvim'
+  use 'prichrd/netrw.nvim'
 
   -- dependency for netrw.nvim
   use 'nvim-tree/nvim-web-devicons'
