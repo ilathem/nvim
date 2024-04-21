@@ -147,7 +147,7 @@ return require('packer').startup(function(use)
       end,
   })
 
-  use 'norcalli/nvim-colorizer.lua'
+  use 'NvChad/nvim-colorizer.lua'
 
 end)
 
