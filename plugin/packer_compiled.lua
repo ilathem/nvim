@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/isaiah/.cache/nvim/packer_hererocks/2.1.1692716794/share/lua/5.1/?.lua;/home/isaiah/.cache/nvim/packer_hererocks/2.1.1692716794/share/lua/5.1/?/init.lua;/home/isaiah/.cache/nvim/packer_hererocks/2.1.1692716794/lib/luarocks/rocks-5.1/?.lua;/home/isaiah/.cache/nvim/packer_hererocks/2.1.1692716794/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/isaiah/.cache/nvim/packer_hererocks/2.1.1692716794/lib/lua/5.1/?.so"
+local package_path_str = "/home/ilathem/.cache/nvim/packer_hererocks/2.1.1702233742/share/lua/5.1/?.lua;/home/ilathem/.cache/nvim/packer_hererocks/2.1.1702233742/share/lua/5.1/?/init.lua;/home/ilathem/.cache/nvim/packer_hererocks/2.1.1702233742/lib/luarocks/rocks-5.1/?.lua;/home/ilathem/.cache/nvim/packer_hererocks/2.1.1702233742/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/ilathem/.cache/nvim/packer_hererocks/2.1.1702233742/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -77,187 +77,179 @@ _G.packer_plugins = {
   ["Comment.nvim"] = {
     config = { "\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0" },
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
   LuaSnip = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
   ["auto-save.nvim"] = {
     config = { "\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14auto-save\frequire\0" },
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/auto-save.nvim",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/auto-save.nvim",
     url = "https://github.com/Pocco81/auto-save.nvim"
   },
   ["cellular-automaton.nvim"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/cellular-automaton.nvim",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/cellular-automaton.nvim",
     url = "https://github.com/eandrju/cellular-automaton.nvim"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["conform.nvim"] = {
     config = { "\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fconform\frequire\0" },
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/conform.nvim",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/conform.nvim",
     url = "https://github.com/stevearc/conform.nvim"
   },
   ["emmet-vim"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/emmet-vim",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/emmet-vim",
     url = "https://github.com/mattn/emmet-vim"
   },
   ["glow.nvim"] = {
     config = { "\27LJ\2\n2\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\tglow\frequire\0" },
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/glow.nvim",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/glow.nvim",
     url = "https://github.com/ellisonleao/glow.nvim"
   },
   ["guess-indent.nvim"] = {
     config = { "\27LJ\2\n>\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\17guess-indent\frequire\0" },
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/guess-indent.nvim",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/guess-indent.nvim",
     url = "https://github.com/nmac427/guess-indent.nvim"
   },
   harpoon = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/harpoon",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
   },
   ["indent-blankline.nvim"] = {
     config = { "\27LJ\2\n1\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\bibl\frequire\0" },
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
   ["kanagawa.nvim"] = {
     config = { "\27LJ\2\n=\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\30colorscheme kanagawa-wave\bcmd\bvim\0" },
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
     url = "https://github.com/rebelot/kanagawa.nvim"
   },
   ["leap.nvim"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/leap.nvim",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/leap.nvim",
     url = "https://github.com/ggandor/leap.nvim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
     url = "https://github.com/williamboman/mason-lspconfig.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["netrw.nvim"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/netrw.nvim",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/netrw.nvim",
     url = "https://github.com/prichrd/netrw.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
     url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
   },
   ["numbers.vim"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/numbers.vim",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/numbers.vim",
     url = "https://github.com/myusuf3/numbers.vim"
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-colorizer.lua"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
     url = "https://github.com/NvChad/nvim-colorizer.lua"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-surround"] = {
     config = { "\27LJ\2\n?\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\18nvim-surround\frequire\0" },
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/nvim-surround",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/nvim-surround",
     url = "https://github.com/kylechui/nvim-surround"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-ts-autotag"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag",
     url = "https://github.com/windwp/nvim-ts-autotag"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   undotree = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/undotree",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
   ["vim-fugitive"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
   ["vim-gitgutter"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/vim-gitgutter",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/vim-gitgutter",
     url = "https://github.com/airblade/vim-gitgutter"
   },
   ["vim-matchup"] = {
     loaded = true,
-    path = "/home/isaiah/.local/share/nvim/site/pack/packer/start/vim-matchup",
+    path = "/home/ilathem/.local/share/nvim/site/pack/packer/start/vim-matchup",
     url = "https://github.com/andymass/vim-matchup"
   }
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: Comment.nvim
-time([[Config for Comment.nvim]], true)
-try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0", "config", "Comment.nvim")
-time([[Config for Comment.nvim]], false)
--- Config for: indent-blankline.nvim
-time([[Config for indent-blankline.nvim]], true)
-try_loadstring("\27LJ\2\n1\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\bibl\frequire\0", "config", "indent-blankline.nvim")
-time([[Config for indent-blankline.nvim]], false)
 -- Config for: guess-indent.nvim
 time([[Config for guess-indent.nvim]], true)
 try_loadstring("\27LJ\2\n>\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\17guess-indent\frequire\0", "config", "guess-indent.nvim")
@@ -266,10 +258,10 @@ time([[Config for guess-indent.nvim]], false)
 time([[Config for kanagawa.nvim]], true)
 try_loadstring("\27LJ\2\n=\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\30colorscheme kanagawa-wave\bcmd\bvim\0", "config", "kanagawa.nvim")
 time([[Config for kanagawa.nvim]], false)
--- Config for: nvim-surround
-time([[Config for nvim-surround]], true)
-try_loadstring("\27LJ\2\n?\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\18nvim-surround\frequire\0", "config", "nvim-surround")
-time([[Config for nvim-surround]], false)
+-- Config for: conform.nvim
+time([[Config for conform.nvim]], true)
+try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fconform\frequire\0", "config", "conform.nvim")
+time([[Config for conform.nvim]], false)
 -- Config for: auto-save.nvim
 time([[Config for auto-save.nvim]], true)
 try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14auto-save\frequire\0", "config", "auto-save.nvim")
@@ -278,10 +270,18 @@ time([[Config for auto-save.nvim]], false)
 time([[Config for glow.nvim]], true)
 try_loadstring("\27LJ\2\n2\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\tglow\frequire\0", "config", "glow.nvim")
 time([[Config for glow.nvim]], false)
--- Config for: conform.nvim
-time([[Config for conform.nvim]], true)
-try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fconform\frequire\0", "config", "conform.nvim")
-time([[Config for conform.nvim]], false)
+-- Config for: nvim-surround
+time([[Config for nvim-surround]], true)
+try_loadstring("\27LJ\2\n?\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\18nvim-surround\frequire\0", "config", "nvim-surround")
+time([[Config for nvim-surround]], false)
+-- Config for: Comment.nvim
+time([[Config for Comment.nvim]], true)
+try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0", "config", "Comment.nvim")
+time([[Config for Comment.nvim]], false)
+-- Config for: indent-blankline.nvim
+time([[Config for indent-blankline.nvim]], true)
+try_loadstring("\27LJ\2\n1\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\bibl\frequire\0", "config", "indent-blankline.nvim")
+time([[Config for indent-blankline.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

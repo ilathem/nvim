@@ -47,3 +47,7 @@ vim.opt.colorcolumn = "80"
 -- space is the leader key
 vim.g.mapleader = " "
 
+-- add the hyprland conf filetype for treesitter
+vim.filetype.add({
+  pattern = { [".*/hypr/.*%.conf"] = "hyprlang" },
+})
