@@ -17,13 +17,13 @@ vim.keymap.set("n", "<leader>fs", builtin.lsp_document_symbols, {})
 
 -- these are the default keybinds
 -- find files
-vim.keymap.set("n", "<leader>ff", builtin.find_files, {})
+-- vim.keymap.set("n", "<leader>ff", builtin.find_files, {})
 -- find grep
-vim.keymap.set("n", "<leader>fg", builtin.live_grep, {})
+-- vim.keymap.set("n", "<leader>fg", builtin.live_grep, {})
 -- find buffers
-vim.keymap.set("n", "<leader>fb", builtin.buffers, {})
+-- vim.keymap.set("n", "<leader>fb", builtin.buffers, {})
 -- find help
-vim.keymap.set("n", "<leader>fh", builtin.help_tags, {})
+-- vim.keymap.set("n", "<leader>fh", builtin.help_tags, {})
 
 -- list commit history for current directory
 vim.keymap.set("n", "<leader>gdc", builtin.git_commits, {})

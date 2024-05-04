@@ -9,9 +9,15 @@ require("conform").setup({
   },
 })
 
-vim.api.nvim_create_autocmd({"BufWritePre", "BufReadPost"}, {
-  pattern = "*",
-  callback = function(args)
-    require("conform").format({ bufnr = args.buf })
-  end,
-})
+-- keymap short for "format document"
+vim.keymap.set("n", "<leader>fd", function()
+    require("conform").format()
+  end
+)
+
+-- vim.api.nvim_create_autocmd({"BufWritePre", "BufReadPost"}, {
+--   pattern = "*",
+--   callback = function(args)
+--     require("conform").format({ bufnr = args.buf })
+--   end,
+-- })
