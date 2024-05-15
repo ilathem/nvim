@@ -34,7 +34,7 @@ vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
--- append line below to the, keep cursor in same place
+-- append line below to the current, keep cursor in same place
 vim.keymap.set("n", "J", "mzJ`z")
 
 -- keep cursor in the middle when scrolling
@@ -102,3 +102,8 @@ vim.keymap.set("n", "<leader>gi", function()
     vim.cmd("GuessIndent")
 end)
 
+-- automaticaly insert bracket pair for function
+-- disabling and reenabling autosave bc auto formatter closed brackets
+vim.keymap.set("i", "{<CR>", "<cmd>ASToggle<CR>{<CR>}<Esc>ko<cmd>ASToggle<CR>")
+vim.keymap.set("i", "[<CR>", "<cmd>ASToggle<CR>[<CR>]<Esc>ko<cmd>ASToggle<CR>")
+vim.keymap.set("i", "(<CR>", "<cmd>ASToggle<CR>(<CR>)<Esc>ko<cmd>ASToggle<CR>")
