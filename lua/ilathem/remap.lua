@@ -96,3 +96,8 @@ vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>");
 vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
+
+-- gi for guess indent manual running
+vim.keymap.set("n", "<leader>gi", function()
+    vim.cmd("GuessIndent")
+end)
