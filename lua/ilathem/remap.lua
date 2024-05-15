@@ -107,3 +107,6 @@ end)
 vim.keymap.set("i", "{<CR>", "<cmd>ASToggle<CR>{<CR>}<Esc>ko<cmd>ASToggle<CR>")
 vim.keymap.set("i", "[<CR>", "<cmd>ASToggle<CR>[<CR>]<Esc>ko<cmd>ASToggle<CR>")
 vim.keymap.set("i", "(<CR>", "<cmd>ASToggle<CR>(<CR>)<Esc>ko<cmd>ASToggle<CR>")
+
+-- shortcut for console.log
+vim.keymap.set("n", "<leader>cl", "<cmd>ASToggle<CR>iconsole.log()<Esc>i<cmd>ASToggle<CR>")
