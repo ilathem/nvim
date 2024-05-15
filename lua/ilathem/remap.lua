@@ -104,9 +104,9 @@ end)
 
 -- automaticaly insert bracket pair for function
 -- disabling and reenabling autosave bc auto formatter closed brackets
-vim.keymap.set("i", "{<CR>", "<cmd>ASToggle<CR>{<CR>}<Esc>ko<cmd>ASToggle<CR>")
-vim.keymap.set("i", "[<CR>", "<cmd>ASToggle<CR>[<CR>]<Esc>ko<cmd>ASToggle<CR>")
-vim.keymap.set("i", "(<CR>", "<cmd>ASToggle<CR>(<CR>)<Esc>ko<cmd>ASToggle<CR>")
+vim.keymap.set("i", "{<CR>", "{<CR>}<Esc>ko")
+vim.keymap.set("i", "[<CR>", "[<CR>]<Esc>ko")
+vim.keymap.set("i", "(<CR>", "(<CR>)<Esc>ko")
 
 -- shortcut for console.log
-vim.keymap.set("n", "<leader>cl", "<cmd>ASToggle<CR>iconsole.log()<Esc>i<cmd>ASToggle<CR>")
+vim.keymap.set("n", "<leader>cl", "iconsole.log()<Esc>i")
