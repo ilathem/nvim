@@ -110,3 +110,4 @@ end)
 
 -- shortcut for console.log
 vim.keymap.set("n", "<leader>cl", "iconsole.log()<Esc>i")
+vim.keymap.set("i", "<C-l>", "console.log()<Esc>i")
