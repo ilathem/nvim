@@ -2,6 +2,9 @@
 -- ctrl+enter in insert mode continues onto a blank line (instead of inserting
 -- comment at the beginning if coming from a comment line)
 vim.keymap.set("i", "<C-CR>", "<Esc>o<Esc>0Di")
+-- comment
+--
+
 
 -- change leader key to space (leader key is to enable another layer of keybinds)
 vim.g.mapleader = " "

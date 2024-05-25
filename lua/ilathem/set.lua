@@ -42,3 +42,6 @@ vim.g.mapleader = " "
 vim.filetype.add({
   pattern = { [".*/hypr/.*%.conf"] = "hyprlang" },
 })
+
+vim.opt.foldmethod = "indent"
+-- vim.opt.foldclose = "all"
