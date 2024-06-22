@@ -44,5 +44,5 @@ vim.filetype.add({
 })
 
 vim.opt.foldmethod = "indent"
-vim.opt.foldlevel = 1
-vim.opt.foldclose = "all"
+-- vim.opt.foldlevel = 1
+-- vim.opt.foldclose = "all"
