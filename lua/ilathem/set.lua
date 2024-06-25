@@ -43,6 +43,6 @@ vim.filetype.add({
   pattern = { [".*/hypr/.*%.conf"] = "hyprlang" },
 })
 
-vim.opt.foldmethod = "indent"
+-- vim.opt.foldmethod = "indent"
 -- vim.opt.foldlevel = 1
 -- vim.opt.foldclose = "all"

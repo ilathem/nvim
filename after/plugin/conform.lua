@@ -5,7 +5,8 @@ require("conform").setup({
     python = { "isort", "black" },
     -- Use a sub-list to run only the first available formatter
     javascript = { { "prettierd", "prettier" } },
-    css = { { "prettierd", "prettier" } }
+    css = { { "prettierd", "prettier" } },
+    markdown = { { "prettierd", "prettier" } },
   },
 })
 
